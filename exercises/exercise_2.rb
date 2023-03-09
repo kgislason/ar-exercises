@@ -1,6 +1,8 @@
 require_relative '../setup'
 require_relative './exercise_1'
 
+puts "//////////"
+puts "----------"
 puts "Exercise 2"
 puts "----------"
 
