@@ -9,5 +9,4 @@ puts "----------"
 @store3 = Store.find_by(id: 3)
 @store3.destroy
 
-stores = Store.all
-puts stores.count
+puts "Store count after delete should be 2: #{Store.all.count}"
