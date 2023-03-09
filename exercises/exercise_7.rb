@@ -20,8 +20,5 @@ if ! new_store.valid?
   @errors = new_store.errors
   for i in @errors do
     puts "Error: #{i.full_message}"
-  end 
-else
-  new_store.save
+  end
 end
-# 4. Display the error messages provided back from ActiveRecord to the user (one on each line) after you attempt to save/create the record
